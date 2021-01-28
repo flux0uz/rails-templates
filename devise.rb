@@ -71,7 +71,7 @@ HTML
 
 # Navbar
 ########################################
-run 'curl -L https://github.com/flux0uz/rails-navbar/blob/master/_navbar.html.erb > app/views/shared/_navbar.html.erb'
+run 'curl -L https://raw.githubusercontent.com/flux0uz/rails-navbar/master/_navbar.html.erb > app/views/shared/_navbar.html.erb'
 
 inject_into_file 'app/views/layouts/application.html.erb', after: '<body>' do
   <<-HTML
